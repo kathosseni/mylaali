@@ -1,0 +1,47 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <div>
+        <Login />
+      </div>
+    ),
+  },
+  {
+    path: "/register",
+    element: (
+      <div>
+        <Register />
+      </div>
+    ),
+  },
+  {
+    path: "/dashboard",
+    element: (
+      <div>
+        <Dashboard />
+      </div>
+    ),
+  },
+]);
+
+function App() {
+  return (
+    <>
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    </>
+  );
+}
+
+export default App;
+
+
+Prefix	Screen Size
+sm:	640px
+md:	768px
+lg:	1024px
+xl:	1280px
