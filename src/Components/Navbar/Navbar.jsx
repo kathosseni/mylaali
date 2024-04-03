@@ -6,7 +6,7 @@ import logo from "../../Assets/img/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbarSection bgPale">
-      <div className="px-4 mx-10 text-sm mt-4">
+      <div className="sm:px-4 sm:mx-10 px-2 mx-4 text-sm mt-4">
         <div className="flex justify-between items-center">
           <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="Logo Image" />
