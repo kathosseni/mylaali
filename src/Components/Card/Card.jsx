@@ -24,7 +24,7 @@ const Card = () => {
             chaque enfant a le droit de grandir en sécurité et dans le respect.
           </div>
           <div className="flex items-center justify-center  py-2  md:py-4">
-            <button className="text-white text-center py-2 px-3 border rounded-lg bgSec">
+            <button className="text-white text-center py-2 px-3 rounded-lg bgSec">
               <a href="#" className="md:flex">
                 Commander
               </a>
