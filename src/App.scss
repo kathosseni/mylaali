@@ -44,6 +44,7 @@
   --normalFontSize: 0.938rem;
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
+  --footerFontSize: 0.65rem;
 }
 
 a {
@@ -60,6 +61,7 @@ li {
 
 body {
   background: var(--paleColor);
+  overflow-x: hidden;
 }
 
 .font-pjs {
@@ -80,4 +82,20 @@ body {
 
 .bgPale {
   background: var(--paleColor);
+}
+
+.colorPrim {
+  color: var(--primaryColor);
+}
+
+.colorSec {
+  color: var(--secondaryColor);
+}
+
+.colorPale {
+  color: var(--paleColor);
+}
+
+.text-footer {
+  font-size: var(--footerFontSize);
 }

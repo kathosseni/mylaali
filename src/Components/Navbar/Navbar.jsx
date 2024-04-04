@@ -22,9 +22,9 @@ const Navbar = () => {
               <a href="#">Règles du jeu</a>
             </li>
           </ul>
-          <button className="text-white py-2 px-3 border rounded-lg ctaButton">
+          <button className="text-white py-2 px-3 border rounded-lg flex bgPrim">
             <a href="#" className="md:flex">
-                Commander
+              Commander
             </a>
           </button>
         </div>
